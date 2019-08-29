@@ -1,0 +1,123 @@
+.nominations {
+    padding: 9rem 0;
+
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nominations__list {
+    list-style: none;
+    padding: 0;
+    margin: 8rem 0 0 0;
+
+    //column-count: 2;
+    //-webkit-column-gap: 5%;
+    //-moz-column-gap: 5%;
+    //column-gap: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nominations__list-item {
+    //&:not( :first-child ) {
+        margin-top: 1.5rem;
+    //}
+    flex: 0 0 auto;
+    width: 47.5%;
+
+    position: relative;
+    padding: 0 0 0 2rem;
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: .8em;
+        width: .7rem;
+        height: .7rem;
+        border-radius: 50%;
+        background-color: $color-accent;
+    }
+    &.active {
+        .nominations__list-title {
+            color: $color-accent;
+            //border-bottom-color: currentColor;
+        }
+    }
+}
+.nominations__list-title {
+    display: inline;
+    vertical-align: baseline;
+    font-size: 2.4rem;
+    border-bottom: 1px solid rgba(0,0,0,0);
+    cursor: pointer;
+    transition: .3s;
+    &:hover, &:active {
+        color: $color-accent;
+        border-bottom-color: currentColor;
+    }
+}
+.nominations__list-content {
+    padding-top: 1rem;
+}
+.nominations__list-content-title {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: 'Futura New', sans-serif;
+}
+.nominations__list-content-list {
+    margin: 1rem 0 0 0;
+    padding: 0;
+    list-style: none;
+
+    font-size: 1.6rem;
+    li {
+        position: relative;
+        padding: 0 0 0 1rem;
+
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: .5em;
+            width: .4rem;
+            height: .4rem;
+            border-radius: 50%;
+            background-color: currentColor;
+        }
+    }
+}
+.nominations__button {
+    margin-top: 6rem;
+    text-align: center;
+}
+@media only screen and (max-width : 1280px) {
+
+}
+
+@media only screen and (max-width : 1024px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+    .nominations__list {
+        display: block;
+    }
+    .nominations__list-item {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+
+}

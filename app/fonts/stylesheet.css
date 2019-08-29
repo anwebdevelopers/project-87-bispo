@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>...</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+	<header class="header" style="background-image: url('img/bg-header.jpg');">
+		<div class="container">
+			<div class="header__suptitle">Национальная независимая премия</div>
+			<h1 class="header__title">BISPO Awards 2019</h1>
+			<div class="header__text">Премия в области спортивного бизнеса <br>и эффективного управления спортивными проектами</div>
+			<div class="header__box">
+				<div class="header__place">11 декабря 2019 Москва, Hyatt Regency Moscow Petrovsky Park</div>
+				<div class="header__organizer">
+					<figure class="header__organizer-image">
+						<img src="img/img-organizer.png" alt="">
+					</figure>
+					<div class="header__organizer-text">Организатор</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="about" style="background-image: url('img/bg-main.jpg');">
+		<div class="container">
+			<div class="about__box">
+				<h2 class="about__title title">О Премии</h2>
+				<div class="about__text">
+					<p>BISPO Awards - национальная независимая Премия в области спортивного бизнеса и эффективного управления спортивными проектами.
+					</p>
+					<p>Премия направлена на признание и поощрение бизнес- достижений на спортивном и смежных рынках.
+					</p>
+				</div>
+				<h2 class="about__title title">Цели Премии:</h2>
+				<ol class="about__list">
+					<li>выявление достижений компаний на рынке спортивного бизнеса и награждение лидеров отрасли;</li>
+					<li>повышение инвестиционной привлекательности и прозрачности российского рынка спортивного бизнеса;</li>
+					<li>создание нового эффективного инструмента для компаний в продвижении своих проектов
+					</li>
+				</ol>
+			</div>
+		</div>
+		<figure class="about__image">
+			<img src="img/img-about.png" alt="">
+		</figure>
+	</section>
+
+	<!-- Load Scripts Start -->
+	<!-- <script src="libs/jquery/jquery-3.1.1.min.js" defer></script> -->
+	<script src="js/scripts.js" defer></script>
+	<script src="js/common.js" defer></script>
+	<!-- Load Scripts End -->
+
+</body>
+</html>

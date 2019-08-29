@@ -1,0 +1,143 @@
+.participants {
+    padding: 9rem 0;
+
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    position: relative;
+    z-index: 1;
+}
+.participants__image {
+    margin: 0;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: right;
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+.participants__list {
+    padding: 0;
+    list-style: none;
+    margin: 3rem 0 0 0;
+    font-size: 2.4rem;
+
+    column-count: 2;
+    column-gap: 5%;
+    li {
+        &:not( :first-child ) {
+            margin-top: .5rem;
+        }
+        padding: 0 0 0 1rem;
+        background-image: radial-gradient(currentColor, currentColor);
+        background-position: 0 .8em;
+        background-size: 2px 2px;
+        background-repeat: no-repeat;
+    }
+}
+.participants__box {
+    margin-top: 8rem;
+
+    display: flex;
+}
+.participants__guests {
+    flex: 0 0 auto;
+    width: 47.5%;
+}
+.participants__guest-title,
+.participants__note-title {
+    font-size: 4rem;
+    @include title;
+}
+.participants__guest-subtitle,
+.participants__note-subtitle {
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+.participants__guest-list {
+    padding: 0;
+    list-style: none;
+    margin: 1rem 0 0 0;
+    font-size: 2.4rem;
+    li {
+        padding: 0 0 0 1rem;
+        background-image: radial-gradient(currentColor, currentColor);
+        background-position: 0 .8em;
+        background-size: 2px 2px;
+        background-repeat: no-repeat;
+    }
+}
+.participants__note {
+    flex: 0 0 auto;
+    width: 47.5%;
+    margin-left: 5%;
+}
+.participants__note-content {
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+}
+.participants__note-content-number {
+    flex: 0 1 auto;
+    font-size: 13rem;
+    line-height: 1;
+    @include title;
+}
+.participants__note-content-text {
+    flex: 0 1 auto;
+    margin-left: .5rem;
+    font-size: 5rem;
+    line-height: .9;
+    @include title;
+}
+
+@media only screen and (max-width : 1280px) {
+    .participants__note-content-number {
+        font-size: 11rem;
+    }
+    .participants__note-content-text {
+        font-size: 4.5rem;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+    .participants__list {
+        column-count: initial;
+        //column-gap: initial;
+    }
+    .participants__box {
+        display: block;
+    }
+    .participants__guests {
+        width: auto;
+    }
+    .participants__note {
+        width: auto;
+        margin-left: 0;
+        margin-top: 8rem;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+
+}
