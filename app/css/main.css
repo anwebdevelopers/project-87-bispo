@@ -615,15 +615,20 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
 }
 
 .title:not(:first-child) {
 	margin-top: 4rem;
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.title {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 .text:not(:first-child) {
@@ -992,13 +997,18 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
 	font-weight: 300;
 	font-family: 'Futura New', 'Futura', sans-serif;
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.about__list li:before {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 .about__list li:nth-child(n + 10):before {
@@ -1097,11 +1107,17 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.participants__guest-title,
+	.participants__note-title {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 .participants__guest-subtitle,
@@ -1157,11 +1173,16 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.participants__note-content-number {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 .participants__note-content-text {
@@ -1175,11 +1196,16 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.participants__note-content-text {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 @media only screen and (max-width: 1280px) {
@@ -1254,11 +1280,16 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.stages__list-title {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 .stages__list-text {
@@ -1450,11 +1481,16 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.jury__text mark {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 .jury__box {
@@ -1695,11 +1731,16 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.principles__item-title {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 .principles__item-text {
@@ -1740,8 +1781,13 @@ body {
 
 .trust__title {
 	text-align: center;
-	background-image: -o-linear-gradient(65deg, #e0a944, #000);
-	background-image: linear-gradient(25deg, #e0a944, #000);
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.trust__title.title {
+		background-image: -o-linear-gradient(65deg, #e0a944, #000);
+		background-image: linear-gradient(25deg, #e0a944, #000);
+	}
 }
 
 .trust__box {
@@ -1780,16 +1826,16 @@ body {
 
 .trust__box.swiper-container .trust__nav .swiper-button-prev,
 .trust__box.swiper-container .trust__nav .swiper-button-next {
-	position: initial;
-	top: initial;
-	right: initial;
-	left: initial;
-	width: initial;
-	height: initial;
-	margin-top: initial;
+	position: static;
+	top: auto;
+	right: auto;
+	left: auto;
+	width: auto;
+	height: auto;
+	margin-top: auto;
 	z-index: initial;
 	cursor: initial;
-	background-image: initial;
+	background-image: none;
 	background-size: initial;
 	background-position: initial;
 	background-repeat: initial;
@@ -1947,15 +1993,16 @@ body {
 
 .reviews__box.swiper-container .reviews__nav .swiper-button-prev,
 .reviews__box.swiper-container .reviews__nav .swiper-button-next {
-	position: initial;
-	top: initial;
-	right: initial;
-	left: initial;
-	width: initial;
-	height: initial;
-	margin-top: initial;
+	position: static;
+	top: auto;
+	right: auto;
+	left: auto;
+	width: auto;
+	height: auto;
+	margin-top: auto;
 	z-index: initial;
 	cursor: initial;
+	background-image: none;
 	background-size: initial;
 	background-position: initial;
 	background-repeat: initial;
@@ -2198,11 +2245,16 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.counts__item-head-number {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 .counts__item-head-text {
@@ -2485,11 +2537,16 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.promotion__note {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -2514,12 +2571,17 @@ body {
 
 .partners__title {
 	text-align: center;
-	background-image: -o-linear-gradient(65deg, #e0a944, #000);
-	background-image: linear-gradient(25deg, #e0a944, #000);
 }
 
 .partners__title:not(:first-child) {
 	margin-top: 8rem;
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.partners__title.title {
+		background-image: -o-linear-gradient(65deg, #e0a944, #000);
+		background-image: linear-gradient(25deg, #e0a944, #000);
+	}
 }
 
 .partners__general {
@@ -2607,16 +2669,16 @@ body {
 
 .partners__box.swiper-container .partners__nav .swiper-button-prev,
 .partners__box.swiper-container .partners__nav .swiper-button-next {
-	position: initial;
-	top: initial;
-	right: initial;
-	left: initial;
-	width: initial;
-	height: initial;
-	margin-top: initial;
+	position: static;
+	top: auto;
+	right: auto;
+	left: auto;
+	width: auto;
+	height: auto;
+	margin-top: auto;
 	z-index: initial;
 	cursor: initial;
-	background-image: initial;
+	background-image: none;
 	background-size: initial;
 	background-position: initial;
 	background-repeat: initial;
@@ -2831,11 +2893,16 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.organizer__text:before {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 .organizer__footer {
@@ -2945,12 +3012,17 @@ body {
 	font-weight: 300;
 	font-family: 'Futura New', sans-serif;
 	color: #e0a944;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
-	background-image: linear-gradient(25deg, #e0a944, #fadaa0);
 	font-weight: 500;
+}
+
+@supports (-webkit-text-fill-color: transparent) {
+	.contacts__item-title {
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: -o-linear-gradient(65deg, #e0a944, #fadaa0);
+		background-image: linear-gradient(25deg, #e0a944, #fadaa0);
+	}
 }
 
 .contacts__item-subtitle {
@@ -3133,8 +3205,7 @@ body {
 		margin-right: 0;
 	}
 	.footer__button {
-		margin-right: 0;
-		margin-top: 6rem;
+		margin: 6rem 0 0 0;
 	}
 	.footer__contacts {
 		margin-left: 0;

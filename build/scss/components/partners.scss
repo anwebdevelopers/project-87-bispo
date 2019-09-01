@@ -5,9 +5,13 @@
 }
 .partners__title {
     text-align: center;
-    background-image: linear-gradient(25deg, $color-accent, #000);
     &:not( :first-child ) {
         margin-top: 8rem;
+    }
+}
+@supports (-webkit-text-fill-color: transparent) {
+    .partners__title.title {
+        background-image: linear-gradient(25deg, $color-accent, #000);
     }
 }
 .partners__general {
@@ -72,16 +76,16 @@
             .swiper-button-prev,
             .swiper-button-next {
 
-                position: initial;
-                top: initial;
-                right: initial;
-                left: initial;
-                width: initial;
-                height: initial;
-                margin-top: initial;
+                position: static;
+                top: auto;
+                right: auto;
+                left: auto;
+                width: auto;
+                height: auto;
+                margin-top: auto;
                 z-index: initial;
                 cursor: initial;
-                background-image: initial;
+                background-image: none;
                 background-size: initial;
                 background-position: initial;
                 background-repeat: initial;

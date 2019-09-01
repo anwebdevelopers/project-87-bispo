@@ -26,9 +26,13 @@ $color-accent-gradient: #FADAA0;
     font-weight: 300;
     font-family: 'Futura New', sans-serif;
     color: $color-accent;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    background-image: linear-gradient(25deg, $color-accent, $color-accent-gradient);
+
+    @supports (-webkit-text-fill-color: transparent) {
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        background-image: linear-gradient(25deg, $color-accent, $color-accent-gradient);
+    }
+
 }
 
 // @mixin pseudo($display: block, $pos: absolute, $content: ''){

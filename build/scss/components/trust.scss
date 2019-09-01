@@ -5,8 +5,13 @@
 }
 .trust__title {
     text-align: center;
-    background-image: linear-gradient(25deg, $color-accent, #000);
 }
+@supports (-webkit-text-fill-color: transparent) {
+    .trust__title.title {
+        background-image: linear-gradient(25deg, $color-accent, #000);
+    }
+}
+
 .trust__box {
     margin: 0 -1rem;
 
@@ -35,16 +40,16 @@
             .swiper-button-prev,
             .swiper-button-next {
 
-                position: initial;
-                top: initial;
-                right: initial;
-                left: initial;
-                width: initial;
-                height: initial;
-                margin-top: initial;
+                position: static;
+                top: auto;
+                right: auto;
+                left: auto;
+                width: auto;
+                height: auto;
+                margin-top: auto;
                 z-index: initial;
                 cursor: initial;
-                background-image: initial;
+                background-image: none;
                 background-size: initial;
                 background-position: initial;
                 background-repeat: initial;
