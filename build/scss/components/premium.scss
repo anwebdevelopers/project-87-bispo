@@ -1,0 +1,62 @@
+.premium {
+    padding: 9rem 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.premium__title {
+    margin-right: 50%;
+    font-size: 7.2rem;
+}
+.premium__subtitle {
+    margin-left: 50%;
+    font-size: 12.5rem;
+    line-height: 1;
+    font-weight: 300;
+    font-family: 'Futura New', sans-serif;
+}
+.premium__text {
+    margin: 4rem 0 0 50%;
+    font-size: 2.4rem;
+    line-height: 1.4;
+}
+@media only screen and (max-width : 1280px) {
+    .premium__subtitle {
+        font-size: 10rem;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+    .premium__title {
+        font-size: 5.6rem;
+    }
+    .premium__subtitle {
+        font-size: 7rem;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .premium__title {
+        margin-right: 0;
+    }
+    .premium__subtitle {
+        margin-left: 0;
+        margin-top: 6rem;
+    }
+    .premium__text {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+
+}

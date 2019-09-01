@@ -135,7 +135,156 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
 
     } ( jQuery) );
 
+    /*******************************************************/
+    //TRUST SLIDER
+    /*******************************************************/
+    ( function( $ ) {
 
+        $( '.trust__box' ).each( function () {
+
+            const $trust__box = $( this );
+
+
+            $trust__box.addClass( 'swiper-container' )
+                .find( '.trust__item' )
+                .addClass( 'swiper-slide' )
+                .wrapAll( '<div class="trust__wrapper swiper-wrapper"></div>' )
+                .end()
+                .append( '<div class="trust__nav"><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div>' );
+
+            const trustSwiper = new Swiper( $trust__box, {
+                slidesPerView: 5,
+                speed: 800,
+                spaceBetween: 20,
+                loop: true,
+
+                autoplay: {
+                    delay: 5000,
+                },
+
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                breakpoints: {
+                    1024: {
+                        slidesPerView: 4,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                    },
+                    640: {
+                        slidesPerView: 2,
+                    }
+                },
+            } );
+
+            window.addEventListener( 'resize', function () {
+                trustSwiper.updateSize();
+            } );
+
+        } );
+
+    } ( jQuery ) );
+
+
+    /*******************************************************/
+    //REVIEWS SLIDER
+    /*******************************************************/
+
+    ( function( $ ) {
+
+        $( '.reviews__box' ).each( function () {
+
+            const $reviews__box = $( this );
+
+
+            $reviews__box.addClass( 'swiper-container' )
+                .find( '.reviews__item' )
+                .addClass( 'swiper-slide' )
+                .wrapAll( '<div class="reviews__wrapper swiper-wrapper"></div>' )
+                .end()
+                .append( '<div class="reviews__nav"><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div>' );
+
+            const reviewsSwiper = new Swiper( $reviews__box, {
+
+                speed: 800,
+                spaceBetween: 60,
+                loop: true,
+
+                autoplay: {
+                    delay: 15000,
+                },
+
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+            } );
+
+            window.addEventListener( 'resize', function () {
+                reviewsSwiper.updateSize();
+            } );
+
+        } );
+
+    } ( jQuery ) );
+
+
+    /*******************************************************/
+    //TRUST SLIDER
+    /*******************************************************/
+    ( function( $ ) {
+
+        $( '.partners__box' ).each( function () {
+
+            const $partners__box = $( this );
+
+
+            $partners__box.addClass( 'swiper-container' )
+                .find( '.partners__item' )
+                .addClass( 'swiper-slide' )
+                .wrapAll( '<div class="partners__wrapper swiper-wrapper"></div>' )
+                .end()
+                .append( '<div class="partners__nav"><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div>' );
+
+            const partnersSwiper = new Swiper( $partners__box, {
+                slidesPerView: 5,
+                speed: 800,
+                spaceBetween: 20,
+                loop: true,
+
+                autoplay: {
+                    delay: 5000,
+                },
+
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                breakpoints: {
+                    1024: {
+                        slidesPerView: 4,
+                    },
+                    768: {
+                        slidesPerView: 3,
+                    },
+                    640: {
+                        slidesPerView: 2,
+                    }
+                },
+            } );
+
+            window.addEventListener( 'resize', function () {
+                partnersSwiper.updateSize();
+            } );
+
+        } );
+
+    } ( jQuery ) );
 
 } );
 

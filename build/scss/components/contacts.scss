@@ -1,0 +1,155 @@
+.contacts {
+    padding: 9rem 0;
+
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contacts__box {
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contacts__item {
+    flex: 0 0 auto;
+    width:45%;
+    margin-top: 8rem;
+
+
+    display: flex;
+}
+.contacts__item-img {
+    margin: 0;
+    flex: 0 0 auto;
+    width: 30%;
+    //height: 0;
+    //padding-bottom: 30%;
+    //
+    //position: relative;
+    img {
+        //position: absolute;
+        //left: 0;
+        //top: 0;
+        //right: 0;
+        //bottom: 0;
+        //width: 100%;
+        //height: 100%;
+        //object-fit: cover;
+        //border-radius: 50%;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+.contacts__item-content {
+    flex: 0 0 auto;
+    width: 65%;
+    margin-left: 8%;
+}
+
+.contacts__item-title {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-family: 'Futura New', sans-serif;
+
+    @include title;
+    font-weight: 500;
+
+}
+.contacts__item-subtitle {
+    margin-top: .5rem;
+    //font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 1.45;
+}
+.contacts__item-links {
+    padding: 0;
+    list-style: none;
+    margin: 2rem 0 0 0;
+
+    font-size: 2.4rem;
+    line-height: 1.6;
+    li {
+        a {
+            text-decoration: none;
+            color: inherit;
+            background-image: linear-gradient(25deg, $color-accent, $color-accent-gradient);
+            background-size: 0 40%;
+            background-position: 0 100%;
+            background-repeat: no-repeat;
+            transition: .3s;
+            &:hover, &:active {
+                background-size: 100% 40%;
+            }
+        }
+    }
+}
+
+.contacts__text {
+    margin-top: 8rem;
+    text-align: center;
+
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.56;
+}
+
+@media only screen and (max-width : 1280px) {
+
+}
+
+@media only screen and (max-width : 1024px) {
+    .contacts__item {
+        display: block;
+        text-align: center;
+    }
+    .contacts__item-img {
+        width: auto;
+    }
+    .contacts__item-content {
+        width: auto;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .contacts__item-title {
+        br {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .contacts__item {
+        width: 47.5%;
+    }
+}
+
+@media only screen and (max-width : 640px) {
+    //.contacts__box {
+    //    margin: 0 -1rem;
+    //}
+    //.contacts__item {
+    //    width: 47.5%;
+        //margin: 6rem 1rem 0 1rem;
+        //&:not( :nth-child(3n ) ) {
+        //    margin: 6rem 1rem 0 1rem;
+        //}
+    //}
+}
+
+@media only screen and (max-width : 480px) {
+    .contacts__box {
+        display: block;
+    }
+    .contacts__item {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+
+}
