@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/scss/components/advantages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/awarding.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/counts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/organizer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/partners.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/premium.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/promotion.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/reviews.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/trust.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/profile.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/img-header-organizer.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/main.scss" afterDir="false" />
     </list>
     <list id="bf1cc2a1-eed9-4673-be9b-2a8bb0ebd5de" name="ignore" comment="ignore" />
@@ -33,11 +27,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="434">
-                  <caret line="1200" column="31" selection-start-line="1200" selection-start-column="20" selection-end-line="1200" selection-end-column="31" />
+                <state relative-caret-position="497">
+                  <caret line="1226" column="17" lean-forward="true" selection-start-line="1217" selection-start-column="8" selection-end-line="1226" selection-end-column="17" />
                   <folding>
                     <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -80,10 +73,26 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/profile.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="819">
+                  <caret line="318" column="14" lean-forward="true" selection-start-line="304" selection-start-column="8" selection-end-line="318" selection-end-column="14" />
+                  <folding>
+                    <element signature="n#section#0;n#form#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#1;n#form#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#2;n#form#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#3;n#form#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#4;n#form#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/build/scss/components/fonts.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="59" column="59" lean-forward="true" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+                <state relative-caret-position="168">
+                  <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -91,8 +100,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/build/scss/components/_vars.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="84" />
+                <state relative-caret-position="315">
+                  <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -101,7 +110,7 @@
             <entry file="file://$PROJECT_DIR$/build/scss/components/_media.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="126">
-                  <caret line="6" column="1" lean-forward="true" selection-end-line="23" />
+                  <caret line="6" column="1" selection-end-line="23" />
                 </state>
               </provider>
             </entry>
@@ -109,17 +118,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="782">
-                  <caret line="157" column="31" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/js/full.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+                <state relative-caret-position="722">
+                  <caret line="302" column="20" lean-forward="true" selection-start-line="300" selection-start-column="19" selection-end-line="302" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -131,53 +131,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/build/scss/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="269">
-                  <caret line="266" column="26" selection-start-line="266" selection-start-column="26" selection-end-line="266" selection-end-column="26" />
+                <state relative-caret-position="581">
+                  <caret line="296" column="5" selection-start-line="296" selection-start-column="5" selection-end-line="296" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build/scss/components/nominations.scss">
+            <entry file="file://$PROJECT_DIR$/build/scss/components/header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="6" column="33" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build/scss/components/promotion.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63">
-                  <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build/scss/components/organizer.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="728">
-                  <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build/scss/components/contacts.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="651">
-                  <caret line="87" column="9" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="87" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build/scss/components/trust.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="7" column="64" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="64" />
+                <state relative-caret-position="189">
+                  <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+                  <folding>
+                    <marker date="1567421148083" expanded="true" signature="1151:1215" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -185,8 +152,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/build/scss/components/footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+                <state relative-caret-position="462">
+                  <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build/scss/components/profile.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1316">
+                  <caret line="249" column="22" selection-start-line="249" selection-start-column="22" selection-end-line="249" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -226,27 +202,29 @@
         <option value="$PROJECT_DIR$/build/scss/components/participants.scss" />
         <option value="$PROJECT_DIR$/build/scss/components/stages.scss" />
         <option value="$PROJECT_DIR$/build/scss/components/about.scss" />
-        <option value="$PROJECT_DIR$/build/scss/components/header.scss" />
         <option value="$PROJECT_DIR$/build/scss/components/nominations.scss" />
-        <option value="$PROJECT_DIR$/build/scss/components/_vars.scss" />
         <option value="$PROJECT_DIR$/../project-86-footballconf/build/scss/components/speakers.scss" />
         <option value="$PROJECT_DIR$/build/scss/components/jury.scss" />
         <option value="$PROJECT_DIR$/build/scss/components/principles.scss" />
-        <option value="$PROJECT_DIR$/build/scss/components/trust.scss" />
         <option value="$PROJECT_DIR$/../project-86-footballconf/app/js/main.js" />
-        <option value="$PROJECT_DIR$/build/scss/components/reviews.scss" />
         <option value="$PROJECT_DIR$/build/scss/components/counts.scss" />
         <option value="$PROJECT_DIR$/build/scss/components/premium.scss" />
         <option value="$PROJECT_DIR$/build/scss/components/awarding.scss" />
         <option value="$PROJECT_DIR$/build/scss/components/advantages.scss" />
-        <option value="$PROJECT_DIR$/build/scss/components/partners.scss" />
-        <option value="$PROJECT_DIR$/app/js/main.js" />
         <option value="$PROJECT_DIR$/build/scss/components/organizer.scss" />
         <option value="$PROJECT_DIR$/build/scss/components/promotion.scss" />
         <option value="$PROJECT_DIR$/build/scss/components/contacts.scss" />
-        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/build/scss/components/_vars.scss" />
+        <option value="$PROJECT_DIR$/build/scss/components/partners.scss" />
+        <option value="$PROJECT_DIR$/build/scss/components/trust.scss" />
+        <option value="$PROJECT_DIR$/build/scss/components/reviews.scss" />
+        <option value="$PROJECT_DIR$/build/scss/components/header.scss" />
         <option value="$PROJECT_DIR$/build/scss/main.scss" />
+        <option value="$PROJECT_DIR$/app/js/main.js" />
+        <option value="$PROJECT_DIR$/build/scss/components/profile.scss" />
+        <option value="$PROJECT_DIR$/app/profile.html" />
         <option value="$PROJECT_DIR$/build/scss/components/footer.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -264,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,12 +282,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build/scss/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -318,6 +296,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\objective\project-87-bispo\app" />
       <recent name="D:\objective\project-87-bispo\build\scss\components" />
     </key>
   </component>
@@ -351,7 +330,8 @@
       <workItem from="1567053382722" duration="14519000" />
       <workItem from="1567151518799" duration="4974000" />
       <workItem from="1567242750238" duration="8689000" />
-      <workItem from="1567307306034" duration="8561000" />
+      <workItem from="1567307306034" duration="10698000" />
+      <workItem from="1567411036708" duration="14765000" />
     </task>
     <task id="LOCAL-00001" summary="Стартовый коммит">
       <created>1565692588708</created>
@@ -360,20 +340,35 @@
       <option name="project" value="LOCAL" />
       <updated>1565692588708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Верстка завершена 1.09.2019">
+      <created>1567316496822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567316496822</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Правки 1.09.2019">
+      <created>1567325793729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567325793729</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56253000" />
+    <option name="totallyTimeSpent" value="73155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12633263" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12739871" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
@@ -461,7 +456,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Стартовый коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="Стартовый коммит" />
+    <MESSAGE value="Верстка завершена 1.09.2019" />
+    <MESSAGE value="Правки 1.09.2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="Правки 1.09.2019" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../billets/project/gulpfile.js">
@@ -510,13 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -576,24 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/jury.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/scss/components/principles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="33" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/reviews.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -628,76 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/_vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/full.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/nominations.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="157" column="31" selection-start-line="157" selection-start-column="31" selection-end-line="157" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/organizer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/partners.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="169" column="13" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/promotion.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/trust.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="59" column="59" lean-forward="true" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/contacts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="87" column="9" lean-forward="true" selection-start-line="76" selection-start-column="8" selection-end-line="87" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/full.js" />
     <entry file="file://$PROJECT_DIR$/build/scss/components/advantages.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -705,27 +612,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/main.scss">
+    <entry file="file://$PROJECT_DIR$/build/scss/components/jury.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="266" column="26" selection-start-line="266" selection-start-column="26" selection-end-line="266" selection-end-column="26" />
+        <state relative-caret-position="105">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/promotion.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/organizer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2058">
+          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/partners.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/contacts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1827">
+          <caret line="87" column="9" selection-start-line="76" selection-start-column="8" selection-end-line="87" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/reviews.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/nominations.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="33" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/_vars.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/trust.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1567421148083" expanded="true" signature="1151:1215" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/scss/components/_media.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="1" lean-forward="true" selection-end-line="23" />
+          <caret line="6" column="1" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="296" column="5" selection-start-line="296" selection-start-column="5" selection-end-line="296" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="302" column="20" lean-forward="true" selection-start-line="300" selection-start-column="19" selection-end-line="302" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/profile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1316">
+          <caret line="249" column="22" selection-start-line="249" selection-start-column="22" selection-end-line="249" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scss/components/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="318" column="14" lean-forward="true" selection-start-line="304" selection-start-column="8" selection-end-line="318" selection-end-column="14" />
+          <folding>
+            <element signature="n#section#0;n#form#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#form#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#form#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#form#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#form#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="1200" column="31" selection-start-line="1200" selection-start-column="20" selection-end-line="1200" selection-end-column="31" />
+        <state relative-caret-position="497">
+          <caret line="1226" column="17" lean-forward="true" selection-start-line="1217" selection-start-column="8" selection-end-line="1226" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -763,13 +784,6 @@
             <element signature="n#div#2;n#div#0;n#div#0;n#section#15;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#section#15;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scss/components/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 .footer {
-    padding: 6rem 0;
+    padding: 3rem 0 6rem 0;
 }
 .footer__box {
     display: flex;
@@ -9,7 +9,7 @@
 }
 .footer__logo {
     flex: 0 1 auto;
-    margin: 0 2rem 0 0;
+    margin: 3rem 4rem 0 0;
     img {
         max-width: 100%;
         width: auto;
@@ -18,27 +18,45 @@
 }
 .footer__button {
     flex: 0 0 auto;
-    margin: 0 2rem;
-    text-align: center;
+    margin-top: 3rem;
+    //margin: 0 0 0 2rem;
+    //text-align: center;
 }
-.footer__contacts {
+.footer__politics {
+    margin: 3rem 4rem 0 0;
+    font-size: 2rem;
+    a {
+        text-decoration: none;
+        color: inherit;
+        background-image: linear-gradient(25deg, $color-accent, $color-accent-gradient);
+        background-size: 0 40%;
+        background-position: 0 100%;
+        background-repeat: no-repeat;
+        transition: .3s;
+        &:hover, &:active {
+            background-size: 100% 40%;
+        }
+    }
+}
+.footer__contacts,
+.footer__social {
     flex: 0 1 auto;
     padding: 0;
     list-style: none;
-    margin: 0 0 0 2rem;
-    font-size: 2.4rem;
+    margin: 3rem 4rem 0 0;
+    font-size: 2rem;
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: center;
+    //display: flex;
+    //flex-wrap: wrap;
+    //justify-content: flex-end;
+    //align-items: center;
     li {
-        flex: 0 0 auto;
-        margin-top: .5rem;
-        &:not( first-child ) {
-            margin-left: 4rem;
-
-        }
+        //flex: 0 0 auto;
+        //margin-top: .5rem;
+        //&:not( first-child ) {
+        //    margin-left: 4rem;
+        //
+        //}
         a {
             text-decoration: none;
             color: inherit;
@@ -55,7 +73,14 @@
 }
 
 @media only screen and (max-width : 1280px) {
-
+    .footer__box {
+        flex-wrap: wrap;
+    }
+    .footer__button {
+        //margin-left: 0;
+        //width: 100%;
+        //margin-top: 2rem;
+    }
 }
 
 @media only screen and (max-width : 1024px) {
@@ -74,12 +99,18 @@
     .footer__logo {
         margin-right: 0;
     }
-    .footer__button {
-        margin: 6rem 0 0 0;
+    .footer__politics {
+        margin-right: 0;
     }
-    .footer__contacts {
-        margin-left: 0;
-        margin-top: 6rem;
+    .footer__button {
+        margin-top: 5rem;
+    }
+    .footer__contacts,
+    .footer__social {
+        margin-right: 0;
+        //margin-top: 6rem;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         li {
             margin: 1rem 2rem 0 2rem;

@@ -286,6 +286,28 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
 
     } ( jQuery ) );
 
+
+    /*******************************************************/
+    //TRUST SLIDER
+    /*******************************************************/
+
+    ( function( $ ) {
+
+        if ( typeof tinymce === 'object' && $( '[ data-tiny ]' ).length ) {
+            tinymce.init( {
+                selector: '[ data-tiny ]',
+                height: 300,
+                //menubar: false,
+                // mobile: {
+                //     theme: 'silver'
+                // }
+            } );
+        }
+
+    } ( jQuery ) );
+
+
+
 } );
 
 
